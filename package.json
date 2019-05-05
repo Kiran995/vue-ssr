@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    
     "start": "npm run build && npm run start-server",
     "build": "npm run build-client && npm run build-server",
     "build-client": "cross-env NODE_ENV=production webpack --progress --hide-modules",
